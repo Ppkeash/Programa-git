@@ -10,13 +10,13 @@
     {
       "id": "TECNILAND_OG",
       "name": "TECNILAND OG",
-      "description": "Servidor TECNILAND con modpack Forge 1.20.1 personalizado",
-      "icon": "https://www.dropbox.com/scl/fi/tek1k9b8uoyb8lgfnrzx8/icon_128.png?rlkey=uy8xmxyrh2498wan69gx80xvj&st=np3hkvjz&dl=1",
+      "description": "Modpack Forge 1.20.1 personalizado",
+      "icon": null,
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "127.0.0.1:25565",
       "minecraftVersion": "1.20.1",
       "mainServer": true,
-      "autoconnect": true,
+      "autoconnect": false,
       "javaOptions": {
         "supported": ">=17",
         "suggestedMajor": 17,
@@ -28,7 +28,7 @@
       "modules": [
         {
           "id": "net.minecraftforge:forge:1.20.1-47.3.0",
-          "name": "Minecraft Forge 1.20.1-47.3.0",
+          "name": "Minecraft Forge 1.20.1",
           "type": "ForgeHosted",
           "artifact": {
             "size": 0,
