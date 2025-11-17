@@ -1,0 +1,44 @@
+{
+  "version": "1.0.0",
+  "rss": "https://tecniland.com/feed.xml",
+  "java": {
+    "oracle": "https://www.java.com/en/download/"
+  },
+  "servers": [
+    {
+      "id": "tecniland-og",
+      "name": "TECNILAND OG",
+      "description": "TECNILAND 1.20.1 - Forge con muchos mods. Experiencia completa.",
+      "icon": "https://www.dropbox.com/scl/fi/tek1k9b8uoyb8lgfnrzx8/icon_128.png?rlkey=uy8xmxyrh2498wan69gx80xvj&st=68d1de7h&dl=1",
+      "version": "1.0.0",
+      "address": "localhost",
+      "minecraftVersion": "1.20.1",
+      "modpack": "tecniland-og-1.0.0"
+    }
+  ],
+  "modules": [
+    {
+      "id": "net.minecraftforge:forge:1.20.1-47.3.0:universal",
+      "name": "Minecraft Forge 1.20.1",
+      "type": "forgemod",
+      "artifact": {
+        "size": 0,
+        "MD5": "0",
+        "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.3.0/forge-1.20.1-47.3.0-universal.jar"
+      },
+      "required": true
+    },
+    {
+      "id": "tecniland-og-modpack:1.0.0",
+      "name": "TECNILAND OG Modpack",
+      "type": "forgemod",
+      "artifact": {
+        "size": 0,
+        "MD5": "0",
+        "url": "https://www.dropbox.com/scl/fi/hh7zmniil7fvb195do7ei/TECNILAND_OG_1.0.zip?rlkey=6af1eq6u42kebdq4pozvo7v3y&st=0ic2nqjn&dl=1"
+      },
+      "required": true,
+      "subModules": []
+    }
+  ]
+}
