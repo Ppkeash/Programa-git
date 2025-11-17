@@ -1,18 +1,59 @@
 {
   "version": "1.0.0",
+  "discord": {
+    "clientId": "754031513036783737",
+    "smallImageText": "TECNILAND Nexus",
+    "smallImageKey": "tecniland-logo"
+  },
   "rss": null,
-  "discord": null,
   "servers": [
     {
-      "id": "tecniland",
+      "id": "TECNILAND_OG",
       "name": "TECNILAND OG",
-      "description": "TECNILAND 1.20.1",
+      "description": "Servidor TECNILAND con modpack Forge 1.20.1 personalizado",
       "icon": null,
       "version": "1.0.0",
-      "address": "localhost",
+      "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
-      "modLoaders": []
+      "discord": {
+        "shortId": "TECNILAND OG",
+        "largeImageText": "TECNILAND OG Modpack",
+        "largeImageKey": "tecniland-og"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "javaOptions": {
+        "supported": ">=17",
+        "suggestedMajor": 17,
+        "ram": {
+          "recommended": 4096,
+          "minimum": 2048
+        }
+      },
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.20.1-47.3.0",
+          "name": "Minecraft Forge 1.20.1-47.3.0",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 0,
+            "MD5": "",
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.3.0/forge-1.20.1-47.3.0-installer.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "tecniland:modpack:1.0.0",
+          "name": "TECNILAND OG Modpack",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "MD5": "",
+            "path": "mods/TECNILAND_OG_1.0.zip",
+            "url": "https://www.dropbox.com/scl/fi/hh7zmniil7fvb195do7ei/TECNILAND_OG_1.0.zip?rlkey=6af1eq6u42kebdq4pozvo7v3y&st=0ic2nqjn&dl=1"
+          }
+        }
+      ]
     }
-  ],
-  "modules": []
+  ]
 }
