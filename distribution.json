@@ -4,6 +4,9 @@
   "java": {
     "oracle": "https://www.java.com/en/download/"
   },
+  "discord": {
+    "clientId": "385581240906022916"
+  },
   "servers": [
     {
       "id": "tecniland-og",
