@@ -1,29 +1,17 @@
 {
   "version": "1.0.0",
-  "rss": "https://tecniland.com/feed.xml",
+  "rss": null,
   "discord": null,
-  "java": null,
   "servers": [
     {
-      "id": "tecniland-og",
+      "id": "tecniland",
       "name": "TECNILAND OG",
-      "description": "TECNILAND 1.20.1 Forge",
-      "icon": "https://www.dropbox.com/scl/fi/tek1k9b8uoyb8lgfnrzx8/icon_128.png?rlkey=uy8xmxyrh2498wan69gx80xvj&st=68d1de7h&dl=1",
+      "description": "TECNILAND 1.20.1",
+      "icon": null,
       "version": "1.0.0",
       "address": "localhost",
       "minecraftVersion": "1.20.1",
-      "discord": null,
-      "mainServer": false,
-      "autoconnect": false,
-      "modLoaders": [
-        {
-          "id": "forge",
-          "type": "Forge",
-          "metadata": {
-            "version": "47.3.0"
-          }
-        }
-      ]
+      "modLoaders": []
     }
   ],
   "modules": []
