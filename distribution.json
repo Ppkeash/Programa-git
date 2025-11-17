@@ -11,7 +11,7 @@
       "id": "TECNILAND_OG",
       "name": "TECNILAND OG",
       "description": "Modpack Forge 1.20.1 personalizado",
-      "icon": "",
+      "icon": null,
       "version": "1.0.0",
       "address": "127.0.0.1:25565",
       "minecraftVersion": "1.20.1",
@@ -28,10 +28,13 @@
       "modules": [
         {
           "id": "net.minecraftforge:forge:1.20.1-47.3.0",
-          "name": "Minecraft Forge 1.20.1",
+          "name": "Minecraft Forge 1.20.1-47.3.0",
           "type": "ForgeHosted",
+          "required": {
+            "value": true
+          },
           "artifact": {
-            "size": 0,
+            "size": 89000000,
             "MD5": "",
             "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.3.0/forge-1.20.1-47.3.0-installer.jar"
           },
@@ -41,10 +44,13 @@
           "id": "tecniland:modpack:1.0.0",
           "name": "TECNILAND OG Modpack",
           "type": "File",
+          "required": {
+            "value": true
+          },
           "artifact": {
-            "size": 0,
+            "size": 1435990988,
             "MD5": "",
-            "path": "mods/TECNILAND_OG_1.0.zip",
+            "path": "modpacks/TECNILAND_OG_1.0.zip",
             "url": "https://www.dropbox.com/scl/fi/hh7zmniil7fvb195do7ei/TECNILAND_OG_1.0.zip?rlkey=6af1eq6u42kebdq4pozvo7v3y&st=0ic2nqjn&dl=1"
           }
         }
@@ -52,4 +58,3 @@
     }
   ]
 }
-
