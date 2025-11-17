@@ -1,6 +1,9 @@
 {
   "version": "1.0.0",
   "rss": "https://tecniland.com/feed.xml",
+  "discord": {
+    "clientId": "385581240906022916"
+  },
   "servers": [
     {
       "id": "tecniland-og",
@@ -12,7 +15,13 @@
       "minecraftVersion": "1.20.1",
       "discord": null,
       "mainServer": false,
-      "autoconnect": false
+      "autoconnect": false,
+      "modLoaders": [
+        {
+          "id": "net.minecraftforge:forge:1.20.1-47.3.0:universal",
+          "type": "Forge"
+        }
+      ]
     }
   ],
   "modules": [
