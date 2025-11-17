@@ -11,7 +11,7 @@
       "id": "TECNILAND_OG",
       "name": "TECNILAND OG",
       "description": "Modpack Forge 1.20.1 personalizado",
-      "icon": null,
+      "icon": "",
       "version": "1.0.0",
       "address": "127.0.0.1:25565",
       "minecraftVersion": "1.20.1",
@@ -52,3 +52,4 @@
     }
   ]
 }
+
