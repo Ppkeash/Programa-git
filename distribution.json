@@ -11,15 +11,10 @@
       "id": "TECNILAND_OG",
       "name": "TECNILAND OG",
       "description": "Servidor TECNILAND con modpack Forge 1.20.1 personalizado",
-      "icon": null,
+      "icon": "https://www.dropbox.com/scl/fi/tek1k9b8uoyb8lgfnrzx8/icon_128.png?rlkey=uy8xmxyrh2498wan69gx80xvj&st=np3hkvjz&dl=1",
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
-      "discord": {
-        "shortId": "TECNILAND OG",
-        "largeImageText": "TECNILAND OG Modpack",
-        "largeImageKey": "tecniland-og"
-      },
       "mainServer": true,
       "autoconnect": true,
       "javaOptions": {
